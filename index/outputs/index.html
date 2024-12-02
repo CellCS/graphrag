@@ -9,18 +9,18 @@
       
       
       
-        <link rel="prev" href="../custom/">
+        <link rel="prev" href="../default_dataflow/">
       
       
         <link rel="next" href="../../prompt_tuning/overview/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.42">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
     
     
       
-        <title>Template - GraphRAG</title>
+        <title>Outputs - GraphRAG</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#configuration-template" class="md-skip">
+        <a href="#outputs" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Template
+              Outputs
             
           </span>
         </div>
@@ -239,7 +239,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../index/overview/" class="md-tabs__link">
+        <a href="../overview/" class="md-tabs__link">
           
   
   Indexing
@@ -290,13 +290,31 @@
   
   
   
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../config/overview/" class="md-tabs__link">
+          
+  
+  Configuration
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
     <li class="md-tabs__item">
-      <a href="../../blog_posts/" class="md-tabs__link">
+      <a href="../../cli/" class="md-tabs__link">
         
   
     
   
-  Microsoft Research Blog
+  CLI
 
       </a>
     </li>
@@ -310,7 +328,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../cli/" class="md-tabs__link">
+        <a href="../../blog_posts/" class="md-tabs__link">
           
   
   Extras
@@ -524,109 +542,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../index/overview/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Overview
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../index/architecture/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Architecture
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../index/default_dataflow/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Dataflow
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Configuration
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2_4">
-            <span class="md-nav__icon md-icon"></span>
-            Configuration
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../overview/" class="md-nav__link">
         
   
@@ -648,11 +563,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../init/" class="md-nav__link">
+      <a href="../architecture/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Init Command
+    Architecture
   </span>
   
 
@@ -669,53 +584,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../env_vars/" class="md-nav__link">
+      <a href="../default_dataflow/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Using Env Vars
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../json_yaml/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Using JSON or YAML
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../custom/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Fully Custom
+    Dataflow
   </span>
   
 
@@ -745,7 +618,7 @@
           
   
   <span class="md-ellipsis">
-    Template
+    Outputs
   </span>
   
 
@@ -756,7 +629,7 @@
         
   
   <span class="md-ellipsis">
-    Template
+    Outputs
   </span>
   
 
@@ -778,49 +651,89 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#env-file-template" class="md-nav__link">
+  <a href="#shared-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      .env File Template
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label=".env File Template">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#minimal-configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Minimal Configuration
+      Shared fields
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#full-configuration" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#create_final_communities" class="md-nav__link">
     <span class="md-ellipsis">
-      Full Configuration
+      create_final_communities
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_community_reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_community_reports
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_covariates" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_covariates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_documents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_entities" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_entities
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_nodes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_relationships
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_text_units" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_text_units
+    </span>
+  </a>
   
 </li>
       
     </ul>
   
 </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -1008,11 +921,53 @@
   
   
     <li class="md-nav__item">
+      <a href="../../query/global_search/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Global Search
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../query/local_search/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Local Search
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../query/drift_search/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DRIFT Search
   </span>
   
 
@@ -1049,27 +1004,6 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../query/global_search/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Global Search
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
     
     
     
@@ -1081,10 +1015,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_6" >
         
           
-          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1095,8 +1029,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4_5">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_6">
             <span class="md-nav__icon md-icon"></span>
             Notebooks
           </label>
@@ -1165,9 +1099,22 @@
 
               
             
-          </ul>
-        </nav>
-      
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../examples_notebooks/drift_search/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DRIFT Search
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -1179,23 +1126,11 @@
     </li>
   
 
-    
+              
+            
+          </ul>
+        </nav>
       
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../blog_posts/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Microsoft Research Blog
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1217,29 +1152,120 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Extras
+    Configuration
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
-            Extras
+            Configuration
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/init/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Init Command
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/yaml/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using YAML
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../config/env_vars/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using Env Vars
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
   
   
   
@@ -1257,6 +1283,85 @@
     </li>
   
 
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Extras
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Extras
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../blog_posts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Microsoft Research Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visualization_guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visualization Guide
+  </span>
+  
+
+      </a>
+    </li>
+  
+
               
             
               
@@ -1276,10 +1381,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_3" >
         
           
-          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7_3" id="__nav_7_3_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1290,8 +1395,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_3">
             <span class="md-nav__icon md-icon"></span>
             Operation Dulce
           </label>
@@ -1381,35 +1486,83 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#env-file-template" class="md-nav__link">
+  <a href="#shared-fields" class="md-nav__link">
     <span class="md-ellipsis">
-      .env File Template
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label=".env File Template">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#minimal-configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      Minimal Configuration
+      Shared fields
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#full-configuration" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#create_final_communities" class="md-nav__link">
     <span class="md-ellipsis">
-      Full Configuration
+      create_final_communities
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_community_reports" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_community_reports
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_covariates" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_covariates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_documents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_entities" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_entities
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_nodes" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_nodes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_relationships
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create_final_text_units" class="md-nav__link">
+    <span class="md-ellipsis">
+      create_final_text_units
+    </span>
+  </a>
   
 </li>
       
@@ -1431,161 +1584,411 @@
   
 
 
-<h1 id="configuration-template">Configuration Template</h1>
-<p>The following template can be used and stored as a <code>.env</code> in the the directory where you're are pointing
-the <code>--root</code> parameter on your Indexing Pipeline execution.</p>
-<p>For details about how to run the Indexing Pipeline, refer to the <a href="../index/cli.md">Index CLI</a> documentation.</p>
-<h2 id="env-file-template">.env File Template</h2>
-<p>Required variables are uncommented. All the optional configuration can be turned on or off as needed.</p>
-<h3 id="minimal-configuration">Minimal Configuration</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="c1"># Base LLM Settings</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nv">GRAPHRAG_API_KEY</span><span class="o">=</span><span class="s2">&quot;your_api_key&quot;</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="nv">GRAPHRAG_API_BASE</span><span class="o">=</span><span class="s2">&quot;http://&lt;domain&gt;.openai.azure.com&quot;</span><span class="w"> </span><span class="c1"># For Azure OpenAI Users</span>
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="nv">GRAPHRAG_API_VERSION</span><span class="o">=</span><span class="s2">&quot;api_version&quot;</span><span class="w"> </span><span class="c1"># For Azure OpenAI Users</span>
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="c1"># Text Generation Settings</span>
-<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a><span class="nv">GRAPHRAG_LLM_TYPE</span><span class="o">=</span><span class="s2">&quot;azure_openai_chat&quot;</span><span class="w"> </span><span class="c1"># or openai_chat</span>
-<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="nv">GRAPHRAG_LLM_DEPLOYMENT_NAME</span><span class="o">=</span><span class="s2">&quot;gpt-4-turbo-preview&quot;</span>
-<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="nv">GRAPHRAG_LLM_MODEL_SUPPORTS_JSON</span><span class="o">=</span>True
-<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="c1"># Text Embedding Settings</span>
-<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="nv">GRAPHRAG_EMBEDDING_TYPE</span><span class="o">=</span><span class="s2">&quot;azure_openai_embedding&quot;</span><span class="w"> </span><span class="c1"># or openai_embedding</span>
-<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="nv">GRAPHRAG_LLM_DEPLOYMENT_NAME</span><span class="o">=</span><span class="s2">&quot;text-embedding-3-small&quot;</span>
-<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>
-<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="c1"># Data Mapping Settings</span>
-<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="nv">GRAPHRAG_INPUT_TYPE</span><span class="o">=</span><span class="s2">&quot;text&quot;</span>
-</code></pre></div>
-<h3 id="full-configuration">Full Configuration</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># Required LLM Config</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
-<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="c1"># Input Data Configuration</span>
-<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="nv">GRAPHRAG_INPUT_TYPE</span><span class="o">=</span><span class="s2">&quot;file&quot;</span>
-<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
-<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="c1"># Plaintext Input Data Configuration</span>
-<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="c1"># GRAPHRAG_INPUT_FILE_PATTERN=.*\.txt</span>
-<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
-<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="c1"># Text Input Data Configuration</span>
-<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="nv">GRAPHRAG_INPUT_FILE_TYPE</span><span class="o">=</span><span class="s2">&quot;text&quot;</span>
-<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a><span class="nv">GRAPHRAG_INPUT_FILE_PATTERN</span><span class="o">=</span><span class="s2">&quot;.*\.txt</span>$<span class="s2">&quot;</span>
-<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a><span class="nv">GRAPHRAG_INPUT_SOURCE_COLUMN</span><span class="o">=</span><span class="nb">source</span>
-<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a><span class="c1"># GRAPHRAG_INPUT_TIMESTAMP_COLUMN=None</span>
-<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a><span class="c1"># GRAPHRAG_INPUT_TIMESTAMP_FORMAT=None</span>
-<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a><span class="c1"># GRAPHRAG_INPUT_TEXT_COLUMN=&quot;text&quot;</span>
-<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a><span class="c1"># GRAPHRAG_INPUT_ATTRIBUTE_COLUMNS=id</span>
-<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a><span class="c1"># GRAPHRAG_INPUT_TITLE_COLUMN=&quot;title&quot;</span>
-<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a><span class="c1"># GRAPHRAG_INPUT_TYPE=&quot;file&quot;</span>
-<a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a><span class="c1"># GRAPHRAG_INPUT_CONNECTION_STRING=None</span>
-<a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a><span class="c1"># GRAPHRAG_INPUT_CONTAINER_NAME=None</span>
-<a id="__codelineno-1-21" name="__codelineno-1-21" href="#__codelineno-1-21"></a><span class="c1"># GRAPHRAG_INPUT_BASE_DIR=None</span>
-<a id="__codelineno-1-22" name="__codelineno-1-22" href="#__codelineno-1-22"></a>
-<a id="__codelineno-1-23" name="__codelineno-1-23" href="#__codelineno-1-23"></a><span class="c1"># Base LLM Settings</span>
-<a id="__codelineno-1-24" name="__codelineno-1-24" href="#__codelineno-1-24"></a><span class="nv">GRAPHRAG_API_KEY</span><span class="o">=</span><span class="s2">&quot;your_api_key&quot;</span>
-<a id="__codelineno-1-25" name="__codelineno-1-25" href="#__codelineno-1-25"></a><span class="nv">GRAPHRAG_API_BASE</span><span class="o">=</span><span class="s2">&quot;http://&lt;domain&gt;.openai.azure.com&quot;</span><span class="w"> </span><span class="c1"># For Azure OpenAI Users</span>
-<a id="__codelineno-1-26" name="__codelineno-1-26" href="#__codelineno-1-26"></a><span class="nv">GRAPHRAG_API_VERSION</span><span class="o">=</span><span class="s2">&quot;api_version&quot;</span><span class="w"> </span><span class="c1"># For Azure OpenAI Users</span>
-<a id="__codelineno-1-27" name="__codelineno-1-27" href="#__codelineno-1-27"></a><span class="c1"># GRAPHRAG_API_ORGANIZATION=None</span>
-<a id="__codelineno-1-28" name="__codelineno-1-28" href="#__codelineno-1-28"></a><span class="c1"># GRAPHRAG_API_PROXY=None</span>
-<a id="__codelineno-1-29" name="__codelineno-1-29" href="#__codelineno-1-29"></a>
-<a id="__codelineno-1-30" name="__codelineno-1-30" href="#__codelineno-1-30"></a><span class="c1"># Text Generation Settings</span>
-<a id="__codelineno-1-31" name="__codelineno-1-31" href="#__codelineno-1-31"></a><span class="c1"># GRAPHRAG_LLM_TYPE=openai_chat</span>
-<a id="__codelineno-1-32" name="__codelineno-1-32" href="#__codelineno-1-32"></a><span class="nv">GRAPHRAG_LLM_API_KEY</span><span class="o">=</span><span class="s2">&quot;your_api_key&quot;</span><span class="w"> </span><span class="c1"># If GRAPHRAG_API_KEY is not set</span>
-<a id="__codelineno-1-33" name="__codelineno-1-33" href="#__codelineno-1-33"></a><span class="nv">GRAPHRAG_LLM_API_BASE</span><span class="o">=</span><span class="s2">&quot;http://&lt;domain&gt;.openai.azure.com&quot;</span><span class="w"> </span><span class="c1"># For Azure OpenAI Users and if GRAPHRAG_API_BASE is not set</span>
-<a id="__codelineno-1-34" name="__codelineno-1-34" href="#__codelineno-1-34"></a><span class="nv">GRAPHRAG_LLM_API_VERSION</span><span class="o">=</span><span class="s2">&quot;api_version&quot;</span><span class="w"> </span><span class="c1"># For Azure OpenAI Users and if GRAPHRAG_API_VERSION is not set</span>
-<a id="__codelineno-1-35" name="__codelineno-1-35" href="#__codelineno-1-35"></a><span class="nv">GRAPHRAG_LLM_MODEL_SUPPORTS_JSON</span><span class="o">=</span>True<span class="w"> </span><span class="c1"># Suggested by default</span>
-<a id="__codelineno-1-36" name="__codelineno-1-36" href="#__codelineno-1-36"></a><span class="c1"># GRAPHRAG_LLM_API_ORGANIZATION=None</span>
-<a id="__codelineno-1-37" name="__codelineno-1-37" href="#__codelineno-1-37"></a><span class="c1"># GRAPHRAG_LLM_API_PROXY=None</span>
-<a id="__codelineno-1-38" name="__codelineno-1-38" href="#__codelineno-1-38"></a><span class="c1"># GRAPHRAG_LLM_DEPLOYMENT_NAME=None</span>
-<a id="__codelineno-1-39" name="__codelineno-1-39" href="#__codelineno-1-39"></a><span class="c1"># GRAPHRAG_LLM_MODEL=gpt-4-turbo-preview</span>
-<a id="__codelineno-1-40" name="__codelineno-1-40" href="#__codelineno-1-40"></a><span class="c1"># GRAPHRAG_LLM_MAX_TOKENS=4000</span>
-<a id="__codelineno-1-41" name="__codelineno-1-41" href="#__codelineno-1-41"></a><span class="c1"># GRAPHRAG_LLM_REQUEST_TIMEOUT=180</span>
-<a id="__codelineno-1-42" name="__codelineno-1-42" href="#__codelineno-1-42"></a><span class="c1"># GRAPHRAG_LLM_THREAD_COUNT=50</span>
-<a id="__codelineno-1-43" name="__codelineno-1-43" href="#__codelineno-1-43"></a><span class="c1"># GRAPHRAG_LLM_THREAD_STAGGER=0.3</span>
-<a id="__codelineno-1-44" name="__codelineno-1-44" href="#__codelineno-1-44"></a><span class="c1"># GRAPHRAG_LLM_CONCURRENT_REQUESTS=25</span>
-<a id="__codelineno-1-45" name="__codelineno-1-45" href="#__codelineno-1-45"></a><span class="c1"># GRAPHRAG_LLM_TPM=0</span>
-<a id="__codelineno-1-46" name="__codelineno-1-46" href="#__codelineno-1-46"></a><span class="c1"># GRAPHRAG_LLM_RPM=0</span>
-<a id="__codelineno-1-47" name="__codelineno-1-47" href="#__codelineno-1-47"></a><span class="c1"># GRAPHRAG_LLM_MAX_RETRIES=10</span>
-<a id="__codelineno-1-48" name="__codelineno-1-48" href="#__codelineno-1-48"></a><span class="c1"># GRAPHRAG_LLM_MAX_RETRY_WAIT=10</span>
-<a id="__codelineno-1-49" name="__codelineno-1-49" href="#__codelineno-1-49"></a><span class="c1"># GRAPHRAG_LLM_SLEEP_ON_RATE_LIMIT_RECOMMENDATION=True</span>
-<a id="__codelineno-1-50" name="__codelineno-1-50" href="#__codelineno-1-50"></a>
-<a id="__codelineno-1-51" name="__codelineno-1-51" href="#__codelineno-1-51"></a><span class="c1"># Text Embedding Settings</span>
-<a id="__codelineno-1-52" name="__codelineno-1-52" href="#__codelineno-1-52"></a><span class="c1"># GRAPHRAG_EMBEDDING_TYPE=openai_embedding</span>
-<a id="__codelineno-1-53" name="__codelineno-1-53" href="#__codelineno-1-53"></a><span class="nv">GRAPHRAG_EMBEDDING_API_KEY</span><span class="o">=</span><span class="s2">&quot;your_api_key&quot;</span><span class="w"> </span><span class="c1"># If GRAPHRAG_API_KEY is not set</span>
-<a id="__codelineno-1-54" name="__codelineno-1-54" href="#__codelineno-1-54"></a><span class="nv">GRAPHRAG_EMBEDDING_API_BASE</span><span class="o">=</span><span class="s2">&quot;http://&lt;domain&gt;.openai.azure.com&quot;</span><span class="w">  </span><span class="c1"># For Azure OpenAI Users and if GRAPHRAG_API_BASE is not set</span>
-<a id="__codelineno-1-55" name="__codelineno-1-55" href="#__codelineno-1-55"></a><span class="nv">GRAPHRAG_EMBEDDING_API_VERSION</span><span class="o">=</span><span class="s2">&quot;api_version&quot;</span><span class="w"> </span><span class="c1"># For Azure OpenAI Users and if GRAPHRAG_API_VERSION is not set</span>
-<a id="__codelineno-1-56" name="__codelineno-1-56" href="#__codelineno-1-56"></a><span class="c1"># GRAPHRAG_EMBEDDING_API_ORGANIZATION=None</span>
-<a id="__codelineno-1-57" name="__codelineno-1-57" href="#__codelineno-1-57"></a><span class="c1"># GRAPHRAG_EMBEDDING_API_PROXY=None</span>
-<a id="__codelineno-1-58" name="__codelineno-1-58" href="#__codelineno-1-58"></a><span class="c1"># GRAPHRAG_EMBEDDING_DEPLOYMENT_NAME=None</span>
-<a id="__codelineno-1-59" name="__codelineno-1-59" href="#__codelineno-1-59"></a><span class="c1"># GRAPHRAG_EMBEDDING_MODEL=text-embedding-3-small</span>
-<a id="__codelineno-1-60" name="__codelineno-1-60" href="#__codelineno-1-60"></a><span class="c1"># GRAPHRAG_EMBEDDING_BATCH_SIZE=16</span>
-<a id="__codelineno-1-61" name="__codelineno-1-61" href="#__codelineno-1-61"></a><span class="c1"># GRAPHRAG_EMBEDDING_BATCH_MAX_TOKENS=8191</span>
-<a id="__codelineno-1-62" name="__codelineno-1-62" href="#__codelineno-1-62"></a><span class="c1"># GRAPHRAG_EMBEDDING_TARGET=required</span>
-<a id="__codelineno-1-63" name="__codelineno-1-63" href="#__codelineno-1-63"></a><span class="c1"># GRAPHRAG_EMBEDDING_SKIP=None</span>
-<a id="__codelineno-1-64" name="__codelineno-1-64" href="#__codelineno-1-64"></a><span class="c1"># GRAPHRAG_EMBEDDING_THREAD_COUNT=None</span>
-<a id="__codelineno-1-65" name="__codelineno-1-65" href="#__codelineno-1-65"></a><span class="c1"># GRAPHRAG_EMBEDDING_THREAD_STAGGER=50</span>
-<a id="__codelineno-1-66" name="__codelineno-1-66" href="#__codelineno-1-66"></a><span class="c1"># GRAPHRAG_EMBEDDING_CONCURRENT_REQUESTS=25</span>
-<a id="__codelineno-1-67" name="__codelineno-1-67" href="#__codelineno-1-67"></a><span class="c1"># GRAPHRAG_EMBEDDING_TPM=0</span>
-<a id="__codelineno-1-68" name="__codelineno-1-68" href="#__codelineno-1-68"></a><span class="c1"># GRAPHRAG_EMBEDDING_RPM=0</span>
-<a id="__codelineno-1-69" name="__codelineno-1-69" href="#__codelineno-1-69"></a><span class="c1"># GRAPHRAG_EMBEDDING_MAX_RETRIES=10</span>
-<a id="__codelineno-1-70" name="__codelineno-1-70" href="#__codelineno-1-70"></a><span class="c1"># GRAPHRAG_EMBEDDING_MAX_RETRY_WAIT=10</span>
-<a id="__codelineno-1-71" name="__codelineno-1-71" href="#__codelineno-1-71"></a><span class="c1"># GRAPHRAG_EMBEDDING_SLEEP_ON_RATE_LIMIT_RECOMMENDATION=True</span>
-<a id="__codelineno-1-72" name="__codelineno-1-72" href="#__codelineno-1-72"></a>
-<a id="__codelineno-1-73" name="__codelineno-1-73" href="#__codelineno-1-73"></a><span class="c1"># Data Mapping Settings</span>
-<a id="__codelineno-1-74" name="__codelineno-1-74" href="#__codelineno-1-74"></a><span class="c1"># GRAPHRAG_INPUT_ENCODING=utf-8</span>
-<a id="__codelineno-1-75" name="__codelineno-1-75" href="#__codelineno-1-75"></a>
-<a id="__codelineno-1-76" name="__codelineno-1-76" href="#__codelineno-1-76"></a><span class="c1"># Data Chunking</span>
-<a id="__codelineno-1-77" name="__codelineno-1-77" href="#__codelineno-1-77"></a><span class="c1"># GRAPHRAG_CHUNK_SIZE=1200</span>
-<a id="__codelineno-1-78" name="__codelineno-1-78" href="#__codelineno-1-78"></a><span class="c1"># GRAPHRAG_CHUNK_OVERLAP=100</span>
-<a id="__codelineno-1-79" name="__codelineno-1-79" href="#__codelineno-1-79"></a><span class="c1"># GRAPHRAG_CHUNK_BY_COLUMNS=id</span>
-<a id="__codelineno-1-80" name="__codelineno-1-80" href="#__codelineno-1-80"></a>
-<a id="__codelineno-1-81" name="__codelineno-1-81" href="#__codelineno-1-81"></a><span class="c1"># Prompting Overrides</span>
-<a id="__codelineno-1-82" name="__codelineno-1-82" href="#__codelineno-1-82"></a><span class="c1"># GRAPHRAG_ENTITY_EXTRACTION_PROMPT_FILE=None</span>
-<a id="__codelineno-1-83" name="__codelineno-1-83" href="#__codelineno-1-83"></a><span class="c1"># GRAPHRAG_ENTITY_EXTRACTION_MAX_GLEANINGS=1</span>
-<a id="__codelineno-1-84" name="__codelineno-1-84" href="#__codelineno-1-84"></a><span class="c1"># GRAPHRAG_ENTITY_EXTRACTION_ENTITY_TYPES=organization,person,event,geo</span>
-<a id="__codelineno-1-85" name="__codelineno-1-85" href="#__codelineno-1-85"></a><span class="c1"># GRAPHRAG_SUMMARIZE_DESCRIPTIONS_PROMPT_FILE=None</span>
-<a id="__codelineno-1-86" name="__codelineno-1-86" href="#__codelineno-1-86"></a><span class="c1"># GRAPHRAG_SUMMARIZE_DESCRIPTIONS_MAX_LENGTH=500</span>
-<a id="__codelineno-1-87" name="__codelineno-1-87" href="#__codelineno-1-87"></a><span class="c1"># GRAPHRAG_CLAIM_EXTRACTION_DESCRIPTION=&quot;Any claims or facts that could be relevant to threat analysis.&quot;</span>
-<a id="__codelineno-1-88" name="__codelineno-1-88" href="#__codelineno-1-88"></a><span class="c1"># GRAPHRAG_CLAIM_EXTRACTION_PROMPT_FILE=None</span>
-<a id="__codelineno-1-89" name="__codelineno-1-89" href="#__codelineno-1-89"></a><span class="c1"># GRAPHRAG_CLAIM_EXTRACTION_MAX_GLEANINGS=1</span>
-<a id="__codelineno-1-90" name="__codelineno-1-90" href="#__codelineno-1-90"></a><span class="c1"># GRAPHRAG_COMMUNITY_REPORT_PROMPT_FILE=None</span>
-<a id="__codelineno-1-91" name="__codelineno-1-91" href="#__codelineno-1-91"></a><span class="c1"># GRAPHRAG_COMMUNITY_REPORT_MAX_LENGTH=1500</span>
-<a id="__codelineno-1-92" name="__codelineno-1-92" href="#__codelineno-1-92"></a>
-<a id="__codelineno-1-93" name="__codelineno-1-93" href="#__codelineno-1-93"></a><span class="c1"># Storage</span>
-<a id="__codelineno-1-94" name="__codelineno-1-94" href="#__codelineno-1-94"></a><span class="c1"># GRAPHRAG_STORAGE_TYPE=file</span>
-<a id="__codelineno-1-95" name="__codelineno-1-95" href="#__codelineno-1-95"></a><span class="c1"># GRAPHRAG_STORAGE_CONNECTION_STRING=None</span>
-<a id="__codelineno-1-96" name="__codelineno-1-96" href="#__codelineno-1-96"></a><span class="c1"># GRAPHRAG_STORAGE_CONTAINER_NAME=None</span>
-<a id="__codelineno-1-97" name="__codelineno-1-97" href="#__codelineno-1-97"></a><span class="c1"># GRAPHRAG_STORAGE_BASE_DIR=None</span>
-<a id="__codelineno-1-98" name="__codelineno-1-98" href="#__codelineno-1-98"></a>
-<a id="__codelineno-1-99" name="__codelineno-1-99" href="#__codelineno-1-99"></a><span class="c1"># Cache</span>
-<a id="__codelineno-1-100" name="__codelineno-1-100" href="#__codelineno-1-100"></a><span class="c1"># GRAPHRAG_CACHE_TYPE=file</span>
-<a id="__codelineno-1-101" name="__codelineno-1-101" href="#__codelineno-1-101"></a><span class="c1"># GRAPHRAG_CACHE_CONNECTION_STRING=None</span>
-<a id="__codelineno-1-102" name="__codelineno-1-102" href="#__codelineno-1-102"></a><span class="c1"># GRAPHRAG_CACHE_CONTAINER_NAME=None</span>
-<a id="__codelineno-1-103" name="__codelineno-1-103" href="#__codelineno-1-103"></a><span class="c1"># GRAPHRAG_CACHE_BASE_DIR=None</span>
-<a id="__codelineno-1-104" name="__codelineno-1-104" href="#__codelineno-1-104"></a>
-<a id="__codelineno-1-105" name="__codelineno-1-105" href="#__codelineno-1-105"></a><span class="c1"># Reporting</span>
-<a id="__codelineno-1-106" name="__codelineno-1-106" href="#__codelineno-1-106"></a><span class="c1"># GRAPHRAG_REPORTING_TYPE=file</span>
-<a id="__codelineno-1-107" name="__codelineno-1-107" href="#__codelineno-1-107"></a><span class="c1"># GRAPHRAG_REPORTING_CONNECTION_STRING=None</span>
-<a id="__codelineno-1-108" name="__codelineno-1-108" href="#__codelineno-1-108"></a><span class="c1"># GRAPHRAG_REPORTING_CONTAINER_NAME=None</span>
-<a id="__codelineno-1-109" name="__codelineno-1-109" href="#__codelineno-1-109"></a><span class="c1"># GRAPHRAG_REPORTING_BASE_DIR=None</span>
-<a id="__codelineno-1-110" name="__codelineno-1-110" href="#__codelineno-1-110"></a>
-<a id="__codelineno-1-111" name="__codelineno-1-111" href="#__codelineno-1-111"></a><span class="c1"># Node2Vec Parameters</span>
-<a id="__codelineno-1-112" name="__codelineno-1-112" href="#__codelineno-1-112"></a><span class="c1"># GRAPHRAG_NODE2VEC_ENABLED=False</span>
-<a id="__codelineno-1-113" name="__codelineno-1-113" href="#__codelineno-1-113"></a><span class="c1"># GRAPHRAG_NODE2VEC_NUM_WALKS=10</span>
-<a id="__codelineno-1-114" name="__codelineno-1-114" href="#__codelineno-1-114"></a><span class="c1"># GRAPHRAG_NODE2VEC_WALK_LENGTH=40</span>
-<a id="__codelineno-1-115" name="__codelineno-1-115" href="#__codelineno-1-115"></a><span class="c1"># GRAPHRAG_NODE2VEC_WINDOW_SIZE=2</span>
-<a id="__codelineno-1-116" name="__codelineno-1-116" href="#__codelineno-1-116"></a><span class="c1"># GRAPHRAG_NODE2VEC_ITERATIONS=3</span>
-<a id="__codelineno-1-117" name="__codelineno-1-117" href="#__codelineno-1-117"></a><span class="c1"># GRAPHRAG_NODE2VEC_RANDOM_SEED=597832</span>
-<a id="__codelineno-1-118" name="__codelineno-1-118" href="#__codelineno-1-118"></a>
-<a id="__codelineno-1-119" name="__codelineno-1-119" href="#__codelineno-1-119"></a><span class="c1"># Data Snapshotting</span>
-<a id="__codelineno-1-120" name="__codelineno-1-120" href="#__codelineno-1-120"></a><span class="c1"># GRAPHRAG_SNAPSHOT_GRAPHML=False</span>
-<a id="__codelineno-1-121" name="__codelineno-1-121" href="#__codelineno-1-121"></a><span class="c1"># GRAPHRAG_SNAPSHOT_RAW_ENTITIES=False</span>
-<a id="__codelineno-1-122" name="__codelineno-1-122" href="#__codelineno-1-122"></a><span class="c1"># GRAPHRAG_SNAPSHOT_TOP_LEVEL_NODES=False</span>
-<a id="__codelineno-1-123" name="__codelineno-1-123" href="#__codelineno-1-123"></a>
-<a id="__codelineno-1-124" name="__codelineno-1-124" href="#__codelineno-1-124"></a><span class="c1"># Miscellaneous Settings</span>
-<a id="__codelineno-1-125" name="__codelineno-1-125" href="#__codelineno-1-125"></a><span class="c1"># GRAPHRAG_ASYNC_MODE=asyncio</span>
-<a id="__codelineno-1-126" name="__codelineno-1-126" href="#__codelineno-1-126"></a><span class="c1"># GRAPHRAG_ENCODING_MODEL=cl100k_base</span>
-<a id="__codelineno-1-127" name="__codelineno-1-127" href="#__codelineno-1-127"></a><span class="c1"># GRAPHRAG_MAX_CLUSTER_SIZE=10</span>
-<a id="__codelineno-1-128" name="__codelineno-1-128" href="#__codelineno-1-128"></a><span class="c1"># GRAPHRAG_SKIP_WORKFLOWS=None</span>
-<a id="__codelineno-1-129" name="__codelineno-1-129" href="#__codelineno-1-129"></a><span class="c1"># GRAPHRAG_UMAP_ENABLED=False</span>
-</code></pre></div>
+<h1 id="outputs">Outputs</h1>
+<p>The default pipeline produces a series of output tables that align with the <a href="../default_dataflow/">conceptual knowledge model</a>. This page describes the detailed output table schemas. By default we write these tables out as parquet files on disk.</p>
+<h2 id="shared-fields">Shared fields</h2>
+<p>All tables have two identifier fields:</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>str</td>
+<td>Generated UUID, assuring global uniqueness</td>
+</tr>
+<tr>
+<td>human_readable_id</td>
+<td>int</td>
+<td>This is an incremented short ID created per-run. For example, we use this short ID with generated summaries that print citations so they are easy to cross-reference visually.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create_final_communities">create_final_communities</h2>
+<p>This is a list of the final communities generated by Leiden. Communities are strictly hierarchical, subdividing into children as the cluster affinity is narrowed.</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>community</td>
+<td>int</td>
+<td>Leiden-generated cluster ID for the community. Note that these increment with depth, so they are unique through all levels of the community hierarchy. For this table, human_readable_id is a copy of the community ID rather than a plain increment.</td>
+</tr>
+<tr>
+<td>level</td>
+<td>int</td>
+<td>Depth of the community in the hierarchy.</td>
+</tr>
+<tr>
+<td>title</td>
+<td>str</td>
+<td>Friendly name of the community.</td>
+</tr>
+<tr>
+<td>entity_ids</td>
+<td>str[]</td>
+<td>List of entities that are members of the community.</td>
+</tr>
+<tr>
+<td>relationship_ids</td>
+<td>str[]</td>
+<td>List of relationships that are wholly within the community (source and target are both in the community).</td>
+</tr>
+<tr>
+<td>text_unit_ids</td>
+<td>str[]</td>
+<td>List of text units represented within the community.</td>
+</tr>
+<tr>
+<td>period</td>
+<td>str</td>
+<td>Date of ingest, used for incremental update merges. ISO8601</td>
+</tr>
+<tr>
+<td>size</td>
+<td>int</td>
+<td>Size of the community (entity count), used for incremental update merges.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create_final_community_reports">create_final_community_reports</h2>
+<p>This is the list of summarized reports for each community.</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>community</td>
+<td>int</td>
+<td>Short ID of the community this report applies to.</td>
+</tr>
+<tr>
+<td>level</td>
+<td>int</td>
+<td>Level of the community this report applies to.</td>
+</tr>
+<tr>
+<td>title</td>
+<td>str</td>
+<td>LM-generated title for the report.</td>
+</tr>
+<tr>
+<td>summary</td>
+<td>str</td>
+<td>LM-generated summary of the report.</td>
+</tr>
+<tr>
+<td>full_content</td>
+<td>str</td>
+<td>LM-generated full report.</td>
+</tr>
+<tr>
+<td>rank</td>
+<td>float</td>
+<td>LM-derived relevance ranking of the report based on member entity salience</td>
+</tr>
+<tr>
+<td>rank_explanation</td>
+<td>str</td>
+<td>LM-derived explanation of the rank.</td>
+</tr>
+<tr>
+<td>findings</td>
+<td>dict</td>
+<td>LM-derived list of the top 5-10 insights from the community. Contains <code>summary</code> and <code>explanation</code> values.</td>
+</tr>
+<tr>
+<td>full_content_json</td>
+<td>json</td>
+<td>Full JSON output as returned by the LM. Most fields are extracted into columns, but this JSON is sent for query summarization so we leave it to allow for prompt tuning to add fields/content by end users.</td>
+</tr>
+<tr>
+<td>period</td>
+<td>str</td>
+<td>Date of ingest, used for incremental update merges. ISO8601</td>
+</tr>
+<tr>
+<td>size</td>
+<td>int</td>
+<td>Size of the community (entity count), used for incremental update merges.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create_final_covariates">create_final_covariates</h2>
+<p>(Optional) If claim extraction is turned on, this is a list of the extracted covariates. Note that claims are typically oriented around identifying malicious behavior such as fraud, so they are not useful for all datasets.</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>covariate_type</td>
+<td>str</td>
+<td>This is always "claim" with our default covariates.</td>
+</tr>
+<tr>
+<td>type</td>
+<td>str</td>
+<td>Nature of the claim type.</td>
+</tr>
+<tr>
+<td>description</td>
+<td>str</td>
+<td>LM-generated description of the behavior.</td>
+</tr>
+<tr>
+<td>subject_id</td>
+<td>str</td>
+<td>Name of the source entity (that is performing the claimed behavior).</td>
+</tr>
+<tr>
+<td>object_id</td>
+<td>str</td>
+<td>Name of the target entity (that the claimed behavior is performed on).</td>
+</tr>
+<tr>
+<td>status</td>
+<td>str</td>
+<td>LM-derived assessment of the correctness of the claim. One of [TRUE, FALSE, SUSPECTED]</td>
+</tr>
+<tr>
+<td>start_date</td>
+<td>str</td>
+<td>LM-derived start of the claimed activity. ISO8601</td>
+</tr>
+<tr>
+<td>end_date</td>
+<td>str</td>
+<td>LM-derived end of the claimed activity. ISO8601</td>
+</tr>
+<tr>
+<td>source_text</td>
+<td>str</td>
+<td>Short string of text containing the claimed behavior.</td>
+</tr>
+<tr>
+<td>text_unit_id</td>
+<td>str</td>
+<td>ID of the text unit the claim text was extracted from.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create_final_documents">create_final_documents</h2>
+<p>List of document content after import.</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>str</td>
+<td>Filename, unless otherwise configured during CSV import.</td>
+</tr>
+<tr>
+<td>text</td>
+<td>str</td>
+<td>Full text of the document.</td>
+</tr>
+<tr>
+<td>text_unit_ids</td>
+<td>str[]</td>
+<td>List of text units (chunks) that were parsed from the document.</td>
+</tr>
+<tr>
+<td>attributes</td>
+<td>dict</td>
+<td>(optional) If specified during CSV import, this is a dict of attributes for the document.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create_final_entities">create_final_entities</h2>
+<p>List of all entities found in the data by the LM.</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>str</td>
+<td>Name of the entity.</td>
+</tr>
+<tr>
+<td>type</td>
+<td>str</td>
+<td>Type of the entity. By default this will be "organization", "person", "geo", or "event" unless configured differently or auto-tuning is used.</td>
+</tr>
+<tr>
+<td>description</td>
+<td>str</td>
+<td>Textual description of the entity. Entities may be found in many text units, so this is an LM-derived summary of all descriptions.</td>
+</tr>
+<tr>
+<td>text_unit_ids</td>
+<td>str[]</td>
+<td>List of the text units containing the entity.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create_final_nodes">create_final_nodes</h2>
+<p>This is graph-related information for the entities. It contains only information relevant to the graph such as community. There is an entry for each entity at every community level it is found within, so you may see "duplicate" entities.</p>
+<p>Note that the ID fields match those in create_final_entities and can be used for joining if additional information about a node is required.</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>title</td>
+<td>str</td>
+<td>Name of the referenced entity. Duplicated from create_final_entities for convenient cross-referencing.</td>
+</tr>
+<tr>
+<td>community</td>
+<td>int</td>
+<td>Leiden community the node is found within. Entities are not always assigned a community (they may not be close enough to any), so they may have a ID of -1.</td>
+</tr>
+<tr>
+<td>level</td>
+<td>int</td>
+<td>Level of the community the entity is in.</td>
+</tr>
+<tr>
+<td>degree</td>
+<td>int</td>
+<td>Node degree (connectedness) in the graph.</td>
+</tr>
+<tr>
+<td>x</td>
+<td>float</td>
+<td>X position of the node for visual layouts. If graph embeddings and UMAP are not turned on, this will be 0.</td>
+</tr>
+<tr>
+<td>y</td>
+<td>float</td>
+<td>Y position of the node for visual layouts. If graph embeddings and UMAP are not turned on, this will be 0.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create_final_relationships">create_final_relationships</h2>
+<p>List of all entity-to-entity relationships found in the data by the LM. This is also the <em>edge list</em> for the graph.</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source</td>
+<td>str</td>
+<td>Name of the source entity.</td>
+</tr>
+<tr>
+<td>target</td>
+<td>str</td>
+<td>Name of the target entity.</td>
+</tr>
+<tr>
+<td>description</td>
+<td>str</td>
+<td>LM-derived description of the relationship. Also see note for entity descriptions.</td>
+</tr>
+<tr>
+<td>weight</td>
+<td>float</td>
+<td>Weight of the edge in the graph. This is summed from an LM-derived "strength" measure for each relationship instance.</td>
+</tr>
+<tr>
+<td>combined_degree</td>
+<td>int</td>
+<td>Sum of source and target node degrees.</td>
+</tr>
+<tr>
+<td>text_unit_ids</td>
+<td>str[]</td>
+<td>List of text units the relationship was found within.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="create_final_text_units">create_final_text_units</h2>
+<p>List of all text chunks parsed from the input documents.</p>
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>type</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>text</td>
+<td>str</td>
+<td>Raw full text of the chunk.</td>
+</tr>
+<tr>
+<td>n_tokens</td>
+<td>int</td>
+<td>Number of tokens in the chunk. This should normally match the <code>chunk_size</code> config parameter, except for the last chunk which is often shorter.</td>
+</tr>
+<tr>
+<td>document_ids</td>
+<td>str[]</td>
+<td>List of document IDs the chunk came from. This is normally only 1 due to our default groupby, but for very short text documents (e.g., microblogs) it can be configured so text units span multiple documents.</td>
+</tr>
+<tr>
+<td>entity_ids</td>
+<td>str[]</td>
+<td>List of entities found in the text unit.</td>
+</tr>
+<tr>
+<td>relationships_ids</td>
+<td>str[]</td>
+<td>List of relationships found in the text unit.</td>
+</tr>
+<tr>
+<td>covariate_ids</td>
+<td>str[]</td>
+<td>Optional list of covariates found in the text unit.</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -1615,7 +2018,7 @@ the <code>--root</code> parameter on your Indexing Pipeline execution.</p>
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../custom/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Fully Custom">
+          <a href="../default_dataflow/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Dataflow">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1625,7 +2028,7 @@ the <code>--root</code> parameter on your Indexing Pipeline execution.</p>
                 Previous
               </span>
               <div class="md-ellipsis">
-                Fully Custom
+                Dataflow
               </div>
             </div>
           </a>
